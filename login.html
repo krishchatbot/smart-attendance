@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body class="d-flex justify-content-center align-items-center vh-100">
+
+<div class="card p-4 shadow" style="width:300px">
+
+<h4 class="text-center">Login</h4>
+
+<form method="POST">
+<input class="form-control mb-2" name="user" placeholder="Username">
+<input class="form-control mb-2" type="password" name="pwd" placeholder="Password">
+<button class="btn btn-primary w-100">Login</button>
+</form>
+
+<p class="text-danger text-center">{{ msg }}</p>
+
+</div>
+
+</body>
+</html>

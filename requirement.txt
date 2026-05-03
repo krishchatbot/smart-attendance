@@ -1,0 +1,6 @@
+flask
+ibmcloudant
+ibm-cloud-sdk-core
+pandas
+openpyxl
+opencv-python
